@@ -43,7 +43,7 @@ a:before {
 }
 a.active:before {
 	left: 30px;
-	transform: translateX(30px) rotate(35deg);
+	transform: translateX(0) rotate(35deg);
 	border-bottom-left-radius: 75px;
 	border-top-left-radius: 75px;
 	opacity: 1;
@@ -63,8 +63,8 @@ a:after {
 	opacity: 0;
 }
 a.active:after {
-	right: 30px;
-	transform: translateX(30px) rotate(-35deg);
+	right: 30.5px;
+	transform: translateX(0px) rotate(-35deg);
 	border-bottom-right-radius: 75px;
 	border-top-right-radius: 75px;
 	opacity: 1;
